@@ -1,0 +1,30 @@
+Configuration Management
+
+우선 개발환경에 대한 형상관리 - 안드로이드 스튜디오 4.0
+안드로이드 10에 맞춰서 작업했다 api 29?
+
+Subversion 을 이용해 형상관리를 했다
+VisualSVN server 프로그램을 이용해 서버를 구축해서
+SVN data를 저장했다
+
+형상관리를 하기 위해서 Commit 이란 작업을 해주어야 했는데
+개인 작업이 끝난 후에 한번씩 해주었었다.
+그리고 Commit 은 상당히 오래걸렸기 때문에 약간의 code 변화는 카카오톡으로 서로 update 했다.
+
+1. Version management
+   VisualSVN을 통해 CodeLine and BaseLine의 변화를 쉽게 확인하며
+  작업했다. 
+
+2. Distributed version control
+   소스 전체를 복사한 후 필요한 것을 작성,
+   수정하였고 다시 코드를 한명이 전체 수정을
+   통해 해결함
+   또한 필요한 코드만 복사해 수정 후 합체 하는 과       
+   정 또한 사용함. 복합적인 사용을 통해 효율을 높였다.
+   Branching과 Merging을 적극적으로 사용했다.
+
+3. Storage
+    source code를 수정후 Merging 할 때 카톡방에 
+    전체 source를 올리는 식으로 management 했다.
+   and VisualSVN server를 이용해 수정시간을 확인하며 작업했다
+   겹치는 부분이 있는지 확인 후 
